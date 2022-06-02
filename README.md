@@ -13,4 +13,7 @@ WHEN the user enter the project title, THEN this is displayed as the title of th
 WHEN the user enter a description, installation instructions, usage information, contribution guidelines, and test instructions THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests;
 WHEN the user click on the links in the Table of Contents, THEN the user can taken to the corresponding section of the README
 
-##Live link
+## Live link
+- link to video of the readme generate: https://watch.screencastify.com/v/95f4tlZuk0WoznOqK9w3
+
+
