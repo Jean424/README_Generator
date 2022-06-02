@@ -1,23 +1,33 @@
 
-# README Genetator Homework
+# README GENERATOR HOMEWORK
 
-## Description
+## Project Description
+This is a command-line application to make the user get prompted for the required questions and have it succesfully saved into a new readme.md file. 
 
-- This is a command-line application to make the user get prompted for the required questions and have it succesfully saved into a new readme.md file. 
-With this application, the user can quickly create a professional README for a new project.
+## Table of Contents
+- [Installation](#installation)
+- [How to Use](#howtouse)
+- [Contribution](#contribution)
+- [github url](#github)
+- [email address](#email)
 
-## How to use it
+## Installation
+This package uses Node and you will need to install Node in order to use this application. Just type "npm i" in the terminal in this project's file location.
+      
+## How To Use
+To start you will need to navigate to the ReadMe Generator in your terminal using the change directory command (cd). Once you are at the directory you will need to apply the Node package ("npm i" command). Once Node is installed you can run "node index.js" to start up the program. You will then follow the prompts given in the terminal. After the prompts are filled out your ReadMe will be completed.
+      
+## Contribution
+Application uses Node
 
-- WHEN it prompted for user's information about the application repository, THEN a professional README.md is generated with the project and sections entitled Description, Table of Contents, Installation, Usage, Contributing, Github and emails;
-- WHEN the user enter the project title, THEN this is displayed as the title of the README;
-- WHEN the user enter a description, installation instructions, how to use information and ontribution guidelines, THEN this information is added to the sections of the README entitled Description, Installation, how to use and Contributing;
-- WHEN the user click on the links in the Table of Contents, THEN the user can taken to the corresponding section of the README;
-- WHEN the user enter the GitHub URL, THEN this is added to the section of the README with a link to the GitHub profile;
-- WHEN the user enter my email address, THEN this is added to the section of the README how to reach me with additional questions;
+## Reach me with github
+Jean424
+
+## Reach me with email
+jeanlee.jingli@icloud.com
 
 ## Live link
 
 - link to video of the produce of readme generate: https://watch.screencastify.com/v/95f4tlZuk0WoznOqK9w3
 
 ![Screenshot of readme generater](./assets/images/ScreenShot_README_TEST.png)
-

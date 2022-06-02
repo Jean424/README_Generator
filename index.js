@@ -22,7 +22,7 @@ inquirer
         },
         {
             type: 'input',
-            name: 'usage',
+            name: 'use',
             message: 'How do you use your project?',
         },
         {
@@ -33,7 +33,7 @@ inquirer
         {
             type: 'input',
             name: 'github',
-            message: 'What is your Github URL?',
+            message: 'What is your Github username/url?',
         },
         {
             type: 'input',
@@ -42,17 +42,20 @@ inquirer
         },
     ]).then((data) => {
 
-      const filename = `README_TEST.md`
+      const filename = `README.md`
       const readmeString = `
 # ${data.title}
+
 ## Project Description
 ${data.description}
+
 ## Table of Contents
 - [Installation](#installation)
-- [How to Use](#howtouse)
+- [How to Use](#use)
 - [Contribution](#contribution)
 - [github url](#github)
 - [email address](#email)
+
 ## Installation
 ${data.installation}
       
@@ -60,7 +63,13 @@ ${data.installation}
 ${data.usage}
       
 ## Contribution
-${data.contribution}`
+${data.contribution}
+
+## Reach me with github
+${data.github}
+
+## Reach me with email
+${data.email}`
       fs.writeFile(filename, readmeString, (err) =>
           err ? console.log(err) : console.log('Success!')
       );
