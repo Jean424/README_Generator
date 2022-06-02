@@ -30,9 +30,19 @@ inquirer
             name: 'contribution',
             message: 'What is required for contribution?',
         },
+        {
+            type: 'input',
+            name: 'github',
+            message: 'What is your Github URL?',
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'What is your preferred email?',
+        },
     ]).then((data) => {
 
-      const filename = `README_test.md`
+      const filename = `README_TEST.md`
       const readmeString = `
 # ${data.title}
 ## Project Description
@@ -41,12 +51,13 @@ ${data.description}
 - [Installation](#installation)
 - [How to Use](#howtouse)
 - [Contribution](#contribution)
+- [github url](#github)
+- [email address](#email)
 ## Installation
 ${data.installation}
       
 ## How To Use
 ${data.usage}
-![Alt Text](${data.photoLocation})
       
 ## Contribution
 ${data.contribution}`
