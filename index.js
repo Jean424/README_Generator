@@ -42,7 +42,7 @@ inquirer
         },
     ]).then((data) => {
 
-      const filename = `README.md`
+      const filename = `README_SAMPLE.md`
       const readmeString = `
 # ${data.title}
 
@@ -53,25 +53,23 @@ ${data.description}
 - [Installation](#installation)
 - [How to Use](#use)
 - [Contribution](#contribution)
-- [github url](#github)
-- [email address](#email)
+- [Github URL/Username](#github)
+- [Email Address](#email)
 
 ## Installation
 ${data.installation}
       
 ## How To Use
-${data.usage}
+${data.use}
       
 ## Contribution
 ${data.contribution}
 
-## Reach me with github
+## Reach me with github/email
 ${data.github}
-
-## Reach me with email
 ${data.email}`
       fs.writeFile(filename, readmeString, (err) =>
-          err ? console.log(err) : console.log('Success!')
+          err ? console.log(err) : console.log('Successfuly wrote into the README.md!')
       );
   });
 
