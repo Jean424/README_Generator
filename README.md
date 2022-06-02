@@ -18,16 +18,16 @@ This package uses Node and you will need to install Node in order to use this ap
 To start you will need to navigate to the ReadMe Generator in your terminal using the change directory command (cd). Once you are at the directory you will need to apply the Node package ("npm i" command). Once Node is installed you can run "node index.js" to start up the program. You will then follow the prompts given in the terminal. After the prompts are filled out your ReadMe will be completed.
       
 ## Contribution
-Application uses Node
+- Application uses Node
 
 ## Reach me with github
-Jean424
+- Jean424
 
 ## Reach me with email
-jeanlee.jingli@icloud.com
+- jeanlee.jingli@icloud.com
 
 ## Live link
 
 - link to video of the produce of readme generate: https://watch.screencastify.com/v/95f4tlZuk0WoznOqK9w3
-
+- photo of the prompts in the terminal:
 ![Screenshot of readme generater](./assets/images/ScreenShot_README_TEST.png)
