@@ -22,7 +22,7 @@ inquirer
         },
         {
             type: 'input',
-            name: 'use',
+            name: 'usage',
             message: 'How do you use your project?',
         },
         {
@@ -51,7 +51,7 @@ ${data.description}
 
 ## Table of Contents
 - [Installation](#installation)
-- [How to Use](#use)
+- [Usage](#usage)
 - [Contribution](#contribution)
 - [Github URL/Username](#github)
 - [Email Address](#email)
@@ -59,8 +59,8 @@ ${data.description}
 ## Installation
 ${data.installation}
       
-## How To Use
-${data.use}
+## Usage
+${data.usage}
       
 ## Contribution
 ${data.contribution}
@@ -69,7 +69,7 @@ ${data.contribution}
 ${data.github}
 ${data.email}`
       fs.writeFile(filename, readmeString, (err) =>
-          err ? console.log(err) : console.log('Successfuly wrote into the README.md!')
+          err ? console.log(err) : console.log('Successfuly wrote into the README_SAMPLE.md!')
       );
   });
 

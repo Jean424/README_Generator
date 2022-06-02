@@ -1,25 +1,24 @@
 
-# EADME GENERATOR HOMEWORK
+# README GENERATOR HOMEWORK
 
 ## Project Description
 A command-line application to make the user generate a readme file
 
 ## Table of Contents
 - [Installation](#installation)
-- [How to Use](#howtouse)
+- [Usage](#usage)
 - [Contribution](#contribution)
-- [Github URL/Username](#github)
-- [Email Address](#email)
+- [Contact](#contact)
 
 ## Installation
-Fork the open source code from the GitHub repo and run it in the integrated terminal
+Install node package
       
-## How To Use
+## Usage
 homework
       
 ## Contribution
 example
 
-## Reach me with github/email
+## Contact
 - Jean424
 - jeanlee.jingli@icloud.com
