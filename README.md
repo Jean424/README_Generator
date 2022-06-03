@@ -26,7 +26,5 @@ To start you will need to navigate to the ReadMe Generator in your terminal usin
 ## Link
 
 - link to video of the walkthrough readme generate: https://watch.screencastify.com/v/E0DGn0A1XmWkf8rqdmrB
-- photo of the prompts in the terminal:
-
-- photo of the readme sample:
+- photo of the prompts in the terminal and readme sample:
 ![Screenshot of readme generater](./assets/images/ScreenShot_README_TEST.png)
